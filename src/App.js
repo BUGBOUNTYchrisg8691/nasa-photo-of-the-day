@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
 
-const API_KEY = "I83MwsFqeOeinDpocUImQQWOw3eDdrbZsjxt6636"
+import { API_KEY } from "./api_key"
+
 const URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`
 // example of api call
-// https://api.nasa.gov/planetary/apod?api_key=I83MwsFqeOeinDpocUImQQWOw3eDdrbZsjxt6636
+// https://api.nasa.gov/planetary/apod?api_key=API_KEY
 // check rate limit in header under X-RateLimit-Limit and X-RateLimit-Remaining 
 // Parameter 	Type 	      Default 	Description
 // date	      YYYY-MM-DD	today	    The date of the APOD image to retrieve
@@ -17,6 +18,7 @@ function App() {
       <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
+        { console.log(URL, API_KEY) }
       </p>
     </div>
   );
