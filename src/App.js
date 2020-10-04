@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 const API_KEY = "I83MwsFqeOeinDpocUImQQWOw3eDdrbZsjxt6636"
+const URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`
 // example of api call
 // https://api.nasa.gov/planetary/apod?api_key=I83MwsFqeOeinDpocUImQQWOw3eDdrbZsjxt6636
 // check rate limit in header under X-RateLimit-Limit and X-RateLimit-Remaining 
