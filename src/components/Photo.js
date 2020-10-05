@@ -15,9 +15,14 @@ const URL = `https://api.nasa.gov/planetary/apod?date=2020-10-04&api_key=${API_K
 export default function Photo() {
     const [potd, setPotd] = useState()
 
+    const style = {
+        borderRadius: "50%",
+        width: "40%",
+        margin: "20px"
+    }
+
     useEffect(() => {
         axios.get(URL).then(resp => {
-            console.log(resp.data)
             setPotd(resp.data)
         }).catch(err => console.log(err))
     }, [])
@@ -31,7 +36,7 @@ export default function Photo() {
     }
     return (
         <div>
-          <img className="potd" src={ potd.url } alt={ potd.title } />
+          <img style={ style } className="potd" src={ potd.url } alt={ potd.title } />
         </div>
     )
 }
