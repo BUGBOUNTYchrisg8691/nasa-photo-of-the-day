@@ -18,7 +18,11 @@ export default function Photo() {
     const style = {
         borderRadius: "50%",
         width: "40%",
-        margin: "20px"
+        margin: "30px"
+    }
+
+    const divStyle = {
+        margin: "10px"
     }
 
     useEffect(() => {
@@ -29,13 +33,13 @@ export default function Photo() {
 
     if (!potd) {
         return (
-            <div>
+            <div style={ divStyle }>
                 Loading Photo of the Data
             </div>
         )
     }
     return (
-        <div>
+        <div style={ divStyle }>
           <img style={ style } className="potd" src={ potd.url } alt={ potd.title } />
         </div>
     )

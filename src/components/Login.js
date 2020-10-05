@@ -12,11 +12,12 @@ export default function Login() {
     const btnStyle = {
         color: "whitesmoke",
         backgroundColor: "darkblue",
-        width: "15%",
         borderRadius: "10px",
+        width: "10%",
         border: "5px solid lightblue",
         margin: "5px 0",
-        padding: "5px 15px"
+        padding: "8px",
+        fontSize: "1.2rem"
     }
 
     return (
