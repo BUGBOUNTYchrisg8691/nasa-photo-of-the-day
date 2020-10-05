@@ -1,1 +1,53 @@
-[{"catalog":"SWRC_CATALOG","activityID":"2016-01-09T18:00:00-IPS-001","location":"STEREO A","eventTime":"2016-01-09T18:00Z","link":"https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10028/-1","instruments":[{"id":20,"displayName":"STEREO A: IMPACT"},{"id":21,"displayName":"STEREO A: PLASTIC"}]},{"catalog":"SWRC_CATALOG","activityID":"2016-01-18T21:00:00-IPS-001","location":"Earth","eventTime":"2016-01-18T21:00Z","link":"https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10067/-1","instruments":[{"id":10,"displayName":"ACE: MAG"},{"id":9,"displayName":"ACE: SWEPAM"}]},{"catalog":"SWRC_CATALOG","activityID":"2016-01-21T00:48:00-IPS-001","location":"Earth","eventTime":"2016-01-21T00:48Z","link":"https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10072/-1","instruments":[{"id":10,"displayName":"ACE: MAG"},{"id":9,"displayName":"ACE: SWEPAM"}]}]
+[
+    {
+        "catalog": "SWRC_CATALOG",
+        "activityID": "2016-01-09T18:00:00-IPS-001",
+        "location": "STEREO A",
+        "eventTime": "2016-01-09T18:00Z",
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10028/-1",
+        "instruments": [
+            {
+                "id": 20,
+                "displayName": "STEREO A: IMPACT"
+            },
+            {
+                "id": 21,
+                "displayName": "STEREO A: PLASTIC"
+            }
+        ]
+    },
+    {
+        "catalog": "SWRC_CATALOG",
+        "activityID": "2016-01-18T21:00:00-IPS-001",
+        "location": "Earth",
+        "eventTime": "2016-01-18T21:00Z",
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10067/-1",
+        "instruments": [
+            {
+                "id": 10,
+                "displayName": "ACE: MAG"
+            },
+            {
+                "id": 9,
+                "displayName": "ACE: SWEPAM"
+            }
+        ]
+    },
+    {
+        "catalog": "SWRC_CATALOG",
+        "activityID": "2016-01-21T00:48:00-IPS-001",
+        "location": "Earth",
+        "eventTime": "2016-01-21T00:48Z",
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/IPS/10072/-1",
+        "instruments": [
+            {
+                "id": 10,
+                "displayName": "ACE: MAG"
+            },
+            {
+                "id": 9,
+                "displayName": "ACE: SWEPAM"
+            }
+        ]
+    }
+]
