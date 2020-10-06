@@ -34,11 +34,11 @@ export default function Weather(props) {
                     })
                 }
             })} */}
-            { locations.map(function mapper(loc) {
+            { setLocations(locations.map(function mapper(loc) {
                 if (Array.isArray(loc)) {
                     return loc.map(mapper) 
                 }
-            })}
+            }))}
             {/* {locations.forEach(loc => {
                 loc.photos.forEach(element => {
                     console.log(element.img_src, element.rover.name)   
