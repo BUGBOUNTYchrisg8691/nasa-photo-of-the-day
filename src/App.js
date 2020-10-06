@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header"
 import Photo from "./components/Photo"
 import Login from "./components/Login"
+import Main from "./components/my-nasa-app/Main"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
       </p>
+      <Main />
     </div>
   );
 }
