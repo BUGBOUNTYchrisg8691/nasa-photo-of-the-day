@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { API_KEY } from "../api_key";
+import DateDropdown from "./DateDropdown";
 
 const URL = `https://api.nasa.gov/planetary/apod?date=2020-10-04&api_key=${API_KEY}`;
 
+const BASE_URL = "https://api.nasa.gov/planetary/apod"
 // example of api call
 // https://api.nasa.gov/planetary/apod?api_key=API_KEY
 // check rate limit in header under X-RateLimit-Limit and X-RateLimit-Remaining 
@@ -13,6 +15,7 @@ const URL = `https://api.nasa.gov/planetary/apod?date=2020-10-04&api_key=${API_K
 // api_key	  string	    DEMO_KEY	api.nasa.gov key for expanded usage
 
 export default function Photo() {
+    const [date, setDate] = useState(new Date().toISOString().split('T')[0])
     const [potd, setPotd] = useState()
 
     const style = {
@@ -26,10 +29,14 @@ export default function Photo() {
     }
 
     useEffect(() => {
-        axios.get(URL).then(resp => {
+        axios.get(`${BASE_URL}?date=${date}&api_key=${API_KEY}`).then(resp => {
             setPotd(resp.data)
         }).catch(err => console.log(err))
-    }, [])
+    }, [date])
+
+    const changePhoto = (newDate) => {
+        setDate(newDate)
+    }
 
     if (!potd) {
         return (
@@ -40,6 +47,7 @@ export default function Photo() {
     }
     return (
         <div style={ divStyle }>
+          <DateDropdown changePhoto={ changePhoto } />
           <img style={ style } className="potd" src={ potd.url } alt={ potd.title } />
         </div>
     )
