@@ -1,0 +1,172 @@
+[
+    {
+        "simulationID": "WSA-ENLIL/1328/1",
+        "modelCompletionTime": "2011-09-19T08:54Z",
+        "au": 2,
+        "cmeInputs": [
+            {
+                "cmeStartTime": "2011-09-19T02:09Z",
+                "latitude": 21,
+                "longitude": -126,
+                "speed": 355,
+                "halfAngle": 40,
+                "time21_5": "2011-09-19T09:38Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [],
+                "cmeid": "2011-09-19T02:09:00-CME-001"
+            }
+        ],
+        "estimatedShockArrivalTime": null,
+        "estimatedDuration": null,
+        "rmin_re": null,
+        "kp_18": null,
+        "kp_90": null,
+        "kp_135": null,
+        "kp_180": null,
+        "isEarthGB": false,
+        "impactList": null,
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/1328/-1"
+    },
+    {
+        "simulationID": "WSA-ENLIL/1334/1",
+        "modelCompletionTime": "2011-09-19T17:27Z",
+        "au": 2,
+        "cmeInputs": [
+            {
+                "cmeStartTime": "2011-09-19T02:09Z",
+                "latitude": 21,
+                "longitude": -126,
+                "speed": 355,
+                "halfAngle": 40,
+                "time21_5": "2011-09-19T09:38Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [],
+                "cmeid": "2011-09-19T02:09:00-CME-001"
+            },
+            {
+                "cmeStartTime": "2011-09-19T06:54Z",
+                "latitude": 22,
+                "longitude": -48,
+                "speed": 720,
+                "halfAngle": 56,
+                "time21_5": "2011-09-19T10:44Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [
+                    {
+                        "catalog": null,
+                        "activityID": "2011-09-22T03:00:00-IPS-001",
+                        "location": "Earth",
+                        "eventTime": "2011-09-22T03:00Z",
+                        "link": null,
+                        "instruments": [
+                            {
+                                "id": 9,
+                                "displayName": "ACE: SWEPAM"
+                            },
+                            {
+                                "id": 10,
+                                "displayName": "ACE: MAG"
+                            }
+                        ]
+                    }
+                ],
+                "cmeid": "2011-09-19T06:54:00-CME-001"
+            },
+            {
+                "cmeStartTime": "2011-09-19T07:24Z",
+                "latitude": 14,
+                "longitude": 149,
+                "speed": 640,
+                "halfAngle": 30,
+                "time21_5": "2011-09-19T15:20Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [],
+                "cmeid": "2011-09-19T07:24:00-CME-001"
+            },
+            {
+                "cmeStartTime": "2011-09-19T10:24Z",
+                "latitude": 20,
+                "longitude": -65,
+                "speed": 620,
+                "halfAngle": 30,
+                "time21_5": "2011-09-19T16:20Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [
+                    {
+                        "catalog": null,
+                        "activityID": "2011-09-21T06:30:00-IPS-001",
+                        "location": "STEREO B",
+                        "eventTime": "2011-09-21T06:30Z",
+                        "link": null,
+                        "instruments": [
+                            {
+                                "id": 22,
+                                "displayName": "STEREO B: IMPACT"
+                            },
+                            {
+                                "id": 23,
+                                "displayName": "STEREO B: PLASTIC"
+                            }
+                        ]
+                    }
+                ],
+                "cmeid": "2011-09-19T10:24:00-CME-001"
+            }
+        ],
+        "estimatedShockArrivalTime": "2011-09-21T22:57Z",
+        "estimatedDuration": 8.2,
+        "rmin_re": 5.7,
+        "kp_18": 1,
+        "kp_90": null,
+        "kp_135": null,
+        "kp_180": 4,
+        "isEarthGB": false,
+        "impactList": [
+            {
+                "isGlancingBlow": false,
+                "location": "MESSENGER",
+                "arrivalTime": "2011-09-20T05:41Z"
+            },
+            {
+                "isGlancingBlow": false,
+                "location": "STEREO B",
+                "arrivalTime": "2011-09-22T03:48Z"
+            }
+        ],
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/1334/-1"
+    },
+    {
+        "simulationID": "WSA-ENLIL/2660/1",
+        "modelCompletionTime": "2011-09-20T15:08Z",
+        "au": 2,
+        "cmeInputs": [
+            {
+                "cmeStartTime": "2011-09-19T17:06Z",
+                "latitude": 26,
+                "longitude": -109,
+                "speed": 458,
+                "halfAngle": 32,
+                "time21_5": "2011-09-20T05:21Z",
+                "isMostAccurate": true,
+                "levelOfData": 0,
+                "ipsList": [],
+                "cmeid": "2011-09-19T17:06:00-CME-001"
+            }
+        ],
+        "estimatedShockArrivalTime": null,
+        "estimatedDuration": null,
+        "rmin_re": null,
+        "kp_18": null,
+        "kp_90": null,
+        "kp_135": null,
+        "kp_180": null,
+        "isEarthGB": false,
+        "impactList": null,
+        "link": "https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/WSA-ENLIL/2660/-1"
+    }
+]
